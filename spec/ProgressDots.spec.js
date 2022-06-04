@@ -10,6 +10,7 @@ describe('ProgressDots.svelte', () => {
 			value: -1,
 			current: -1
 		})
+		expect(container).toBeTruthy()
 		let dots = container.querySelectorAll('.step')
 		validateDots(dots, 5, -1, -1)
 
